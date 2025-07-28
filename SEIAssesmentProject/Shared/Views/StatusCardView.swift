@@ -111,6 +111,7 @@ class StatusCardView: UIView {
             
             icon.topAnchor.constraint(equalTo: self.topAnchor, constant: 5),
             icon.leadingAnchor.constraint(equalTo: sideRibbon.trailingAnchor, constant: 12),
+            icon.widthAnchor.constraint(equalToConstant: 24),
             
             title.centerYAnchor.constraint(equalTo: icon.centerYAnchor),
             title.leadingAnchor.constraint(equalTo: icon.trailingAnchor, constant: 20),
