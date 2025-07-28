@@ -4,7 +4,7 @@ Figma App Rebuild – SwiftUI & UIKit Hybrid
 
 Overview
 
-This project is a hybrid iOS app I built to match a multi-screen design from Figma. The goal was to demonstrate my ability to work across both SwiftUI and UIKit using clean architecture, reusable components, and modern development patterns. I focused heavily on modularity and responsiveness, while also keeping the codebase scalable and test-friendly.
+This project is a hybrid iOS app I built to match a multi-screen design from Figma. The goal was to demonstrate my ability to work across both SwiftUI and UIKit using clean architecture, reusable components, and modern development patterns, while matching styling. I focused heavily on modularity and responsiveness, and also keeping the codebase scalable and test-friendly.
 
 The app is split across three main screens:
 
@@ -31,3 +31,9 @@ Shared Concepts
 The Loadable<T> enum is used across both platforms to handle loading, success, error, and idle states.
 All data is mock-driven through protocol-based services — no external APIs required.
 Architecture supports previewing, unit testing, and future extensibility.
+
+
+For time sake some status cases in views were not handled, and some shortcuts were taken. 
+
+-Thanks for your time, Roger 
+
