@@ -9,6 +9,7 @@ This project is a hybrid iOS app I built to match a multi-screen design from Fig
 The app is split across three main screens:
 
 Screen 1 (SwiftUI): Dashboard Built in SwiftUI with resuable DashboardSection maintaining consitency throughout the view, the view. SwiftuI Loadable views are shown based on viewModel status. Each section depending on "API" handles its own status updates - allowing data to be retrieved asynchronously and views to update independently. 
+
 Screens 2 & 3 (UIKit): Built with UIViewController subclasses, these screens feature a structured layout MVVM architecture leveraging combine to achieve independent view updates in a very similar fasion to the SwitUI Dashboard. The combination shows similarities undienable making this project ease to extend and update by providing a clear path forward.
 
 
