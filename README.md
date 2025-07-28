@@ -19,7 +19,7 @@ Navigation is handled cleanly through a central NavigationHandler using Combine 
 SwiftUI screens are data-driven and reactive, with logic abstracted away from views.
 UIKit Patterns
 Followed MVVM with Combine in CourseMenuViewController, observing view model state to drive the UI.
-Components like SimpleBannerView and StatusCardView are modular and configured via view models.
+Components like SimpleBannerView and HorizontalScrollView are modular and configured via view models.
 Auto Layout is used for all UIKit layouts, with safe area constraints and padding built in.
 Shared Concepts
 The Loadable<T> enum is used across both platforms to handle loading, success, error, and idle states.
