@@ -1,4 +1,4 @@
-# SEIAssesment
+# SEIAssessment
 
 Figma App Rebuild – SwiftUI & UIKit Hybrid
 
